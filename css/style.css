@@ -1,0 +1,46 @@
+.starcolor{
+    color: #fffb00;
+}
+
+.body-dec{
+    background-color: rgb(223, 247, 248);
+    background-repeat: no-repeat;
+}
+
+.mitr-regular {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(209, 66%, 50%);
+}
+
+.mitr-regular1 {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(62, 66, 70);
+}
+
+.โลโก้1{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sarabun-regular {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dropdowncolor{
+    background-color: hsl(209, 66%, 50%);
+}
+
+.dropfrontcolor{
+    color: hwb(0 100% 0%); 
+}
+
+.img-cus{
+    border-radius: 5%;
+}
