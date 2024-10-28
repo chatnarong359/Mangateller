@@ -69,11 +69,31 @@
       <!-- รายละเอียดหนังสือ -->
         <div class="row">
             <h1 class="mitr-regular1">Zom 100: หนังสือการ์ตูนญี่ปุ่นสุดมันส์ที่จะเปลี่ยนมุมมองของคุณต่อซอมบี้</h1>
-            <p class="mitr-regular1">Zom 100: Bucket List of the Dead ร้อยสิ่งที่อยากทำก่อนเป็นซอมบี้ เล่ม 1</p>
+            <p class="mitr-regular1">Zom 100: Bucket List of the Dead ร้อยสิ่งที่อยากทำก่อนเป็นซอมบี้</p>
         </div>
         <div class="row">
           <div class="col-md-3">
-            <img src="images/zom100.png" alt="" class="img-fluid img-cus">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/zom100.png" class="d-block w-100 img-cus" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/zom100_2.png" class="d-block w-100 img-cus" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/zom100_3.png" class="d-block w-100 img-cus" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-8">
@@ -109,14 +129,32 @@
               </div>
               <div class="row">
                 <div class="col-md-3">
-                  <p class="mitr-regular">
-                    <a href="https://www.zenshushop.com/product/2375/comic-zom-100-%E0%B8%8B%E0%B8%AD%E0%B8%A1-100-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-1-10" target="_blank">
-                    สั่งซื้อได้ที่...
-                  </a></p>
+                  <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                     ซื้อได้ที่
+                   </button>
+
+                  <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                      <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">ซื้อได้ที่</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                  <div class="modal-body">
+                    <p>
+                    -<a href="https://www.zenshushop.com/product/2375/comic-zom-100-%E0%B8%8B%E0%B8%AD%E0%B8%A1-100-%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%A1-1-10" target="_blank">
+                       Zenshushop
+                     </a>
+                    </p>
                 </div>
+                       </div>
+                      </div>
+                    </div>
+                 </div>
               </div>
           </div>
-        </div>
         
         <!-- ดาวรีวิว -->
         <br><div>
@@ -148,9 +186,9 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card" style="width: 18rem;">
-              <img src="images/อาคานะ.jpg" class="card-img-top" alt="">
+              <img src="images/อาคาเนะ1.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <p class="card-title sarabun-regular">Akane Banashi เล่ม 1</p>
+                <p class="card-title sarabun-regular">Akane Banashi</p>
                 <a href="index.html" class="btn btn-primary">อ่านเพิ่มเติม</a>
               </div>
             </div>
@@ -159,7 +197,7 @@
             <div class="card" style="width: 18rem;">
               <img src="images/บารากะมอน.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <p class="card-title sarabun-regular">บารากะมอน เกาะมีฮา คนมีเฮ เล่ม 1</p>
+                <p class="card-title sarabun-regular">บารากะมอน เกาะมีฮา คนมีเฮ</p>
                 <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
               </div>
             </div>
@@ -168,13 +206,13 @@
             <div class="card" style="width: 18rem;">
               <img src="images/แมวดำ.jpg" class="card-img-top" alt="">
               <div class="card-body">
-                <p class="card-title sarabun-regular">ห้องเรียนเวทมนตร์กับคุณแมวดำ 1</p>
+                <p class="card-title sarabun-regular">ห้องเรียนเวทมนตร์กับคุณแมวดำ</p>
                 <a href="#" class="btn btn-primary">อ่านเพิ่มเติม</a>
               </div>
             </div>
           </div>
         </div>
-    </div>
+    
 
 
 
